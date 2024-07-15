@@ -6,6 +6,8 @@ function checkFive(num){
      result = num + " is equal to 5.";
    } else {
      result = num + " is greater than 5.";
-   }
+   } 
    return result;
  }
+
+ module.exports = checkFive;
