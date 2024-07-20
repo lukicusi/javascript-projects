@@ -3,6 +3,8 @@ function decreasingSum(integer) {
       return integer;
    } else {
       //call decreasingSum function again
+      console.log(integer, (integer-1));
+      return integer + (decreasingSum(integer-1)); 
    }
 }
 
